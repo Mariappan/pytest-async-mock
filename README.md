@@ -1,3 +1,9 @@
+# Python Test
+
+Read this page for clear understanding
+
+https://realpython.com/python-mock-library/#common-mocking-problems
+
 ## Where to patch
 
 patch() works by (temporarily) changing the object that a name points to with another one. There can be many names pointing to any individual object, so for patching to work you must ensure that you patch the name used by the system under test.

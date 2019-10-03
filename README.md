@@ -4,6 +4,9 @@ Read this page for clear understanding
 
 https://realpython.com/python-mock-library/#common-mocking-problems
 
+## Good Reads
+https://stackoverflow.com/questions/18872550/unittest-mock-patch-a-class-instance-and-set-method-return-values
+
 ## Where to patch
 
 patch() works by (temporarily) changing the object that a name points to with another one. There can be many names pointing to any individual object, so for patching to work you must ensure that you patch the name used by the system under test.
